@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Piano</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container text-center my-5">
+      <h1>Virtual Piano</h1>
+      <p>Press the following keys to play the notes:</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><strong>A</strong> - C</li>
+        <li class="list-inline-item"><strong>S</strong> - D</li>
+        <li class="list-inline-item"><strong>D</strong> - E</li>
+        <li class="list-inline-item"><strong>F</strong> - F</li>
+        <li class="list-inline-item"><strong>G</strong> - G</li>
+        <li class="list-inline-item"><strong>H</strong> - A</li>
+        <li class="list-inline-item"><strong>J</strong> - B</li>
+
+        <li class="list-inline-item"><strong>W</strong> - C#</li>
+        <li class="list-inline-item"><strong>E</strong> - D#</li>
+        <li class="list-inline-item"><strong>T</strong> - F#</li>
+        <li class="list-inline-item"><strong>Z</strong> - G#</li>
+        <li class="list-inline-item"><strong>U</strong> - A#</li>
+      </ul>
+      <div id="piano" class="d-flex justify-content-center">
+        <!-- Piano keys with IDs for JavaScript interaction
+        <div class="key" id="keyC">C</div>
+        <div class="key black" style="margin-right: 27%" id="keyC#">C#</div>
+        <div class="key" id="keyD">D</div>
+        <div class="key black" id="keyD#" style="margin-right: 175px;">D#</div>
+        <div class="key" id="keyE">E</div>
+        <div class="key" id="keyF">F</div>
+        <div class="key black" id="keyF#" style="margin-left: 60px;">F#</div>
+        <div class="key" id="keyG">G</div>
+        <div class="key black" id="keyG#" style="margin-left: 180px;">G#</div>
+        <div class="key" id="keyA">A</div>
+        <div class="key black" id="keyA#" style="margin-left: 300px;">A#</div>
+        <div class="key" id="keyB">B</div> -->
+      </div>
+      <div id="songs" class="mt-4">
+        <ul class="list-group"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

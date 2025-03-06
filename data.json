@@ -1,0 +1,104 @@
+{
+  "keys": [
+    {
+      "id": "keyC",
+      "label": "C",
+      "isBlack": false,
+      "audioFile": "sounds/C.mp3"
+    },
+    {
+      "id": "keyC#",
+      "label": "C#",
+      "isBlack": true,
+      "audioFile": "sounds/C5.mp3"
+    },
+    {
+      "id": "keyD",
+      "label": "D",
+      "isBlack": false,
+      "audioFile": "sounds/D.mp3"
+    },
+    {
+      "id": "keyD#",
+      "label": "D#",
+      "isBlack": true,
+      "audioFile": "sounds/D4.mp3"
+    },
+    {
+      "id": "keyE",
+      "label": "E",
+      "isBlack": false,
+      "audioFile": "sounds/E.mp3"
+    },
+    {
+      "id": "keyF",
+      "label": "F",
+      "isBlack": false,
+      "audioFile": "sounds/F.mp3"
+    },
+    {
+      "id": "keyF#",
+      "label": "F#",
+      "isBlack": true,
+      "audioFile": "sounds/F4.mp3"
+    },
+    {
+      "id": "keyG",
+      "label": "G",
+      "isBlack": false,
+      "audioFile": "sounds/G.mp3"
+    },
+    {
+      "id": "keyG#",
+      "label": "G#",
+      "isBlack": true,
+      "audioFile": "sounds/G4.mp3"
+    },
+    {
+      "id": "keyA",
+      "label": "A",
+      "isBlack": false,
+      "audioFile": "sounds/A.mp3"
+    },
+    {
+      "id": "keyA#",
+      "label": "A#",
+      "isBlack": true,
+      "audioFile": "sounds/A4.mp3"
+    },
+    {
+      "id": "keyB",
+      "label": "B",
+      "isBlack": false,
+      "audioFile": "sounds/B.mp3"
+    }
+  ],
+  "keyMap": {
+    "a": "keyC",
+    "w": "keyC#",
+    "s": "keyD",
+    "e": "keyD#",
+    "d": "keyE",
+    "f": "keyF",
+    "t": "keyF#",
+    "g": "keyG",
+    "z": "keyG#",
+    "h": "keyA",
+    "u": "keyA#",
+    "j": "keyB"
+  },
+  "songs": [
+    {
+      "title": "Doctor",
+      "path": "sounds/doctor.mp3"
+    },
+    {
+      "title": "MANCHESTER",
+      "path": "sounds/manchester.mp3"
+    },
+    {
+      "title": "Welcome to the Party",
+      "path": "sounds/welcometotheparty.mp3"
+    }
+  ]
+}

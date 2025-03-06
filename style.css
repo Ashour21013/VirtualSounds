@@ -1,0 +1,106 @@
+body {
+  background-color: #f4f4f4;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+#piano {
+  display: flex;
+  position: relative;
+  padding: 15px;
+  background: #222;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  margin: auto;
+}
+/* Weiße Tasten */
+.key {
+  width: 60px;
+  height: 260px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 0 0 5px 5px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  margin: 0;
+  position: relative;
+}
+/* Schwarze Tasten */
+.key.black {
+  width: 40px;
+  height: 160px;
+  background: black;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 0 0 5px 5px;
+  box-shadow: -2px 4px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+/* Effekt für gedrückte weiße Tasten */
+.key:active,
+.key.active {
+  background-color: lightgray;
+}
+
+/* Effekt für gedrückte schwarze Tasten */
+.key.black:active,
+.key.black.active {
+  background: darkgray;
+}
+
+/* Exakte Positionierung der schwarzen Tasten */
+#keyC\# {
+  left: 56px;
+}
+
+#keyD\# {
+  left: 114px;
+}
+
+#keyF\# {
+  left: 234px;
+}
+
+#keyG\# {
+  left: 294px;
+}
+
+#keyA\# {
+  left: 354px;
+}
+
+/* Blaue Umrandung beim Klicken verhindern */
+.key,
+.black-key {
+  outline: none !important; /* Entfernt Standard-Fokus */
+  box-shadow: none !important; /* Entfernt mögliche Schatten in Chrome/Edge */
+  border: 1px solid black; /* Behält normalen Rand */
+}
+
+#songs .list-group {
+  max-height: 300px;
+  max-width: 500px; /* Maximale Höhe der Liste */
+  overflow-y: auto; /* Ermöglicht vertikales Scrollen */
+  margin: 20px auto;
+  padding: 0;
+  width: 100%;
+}
+
+#songs .list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  margin-left: auto;
+}
